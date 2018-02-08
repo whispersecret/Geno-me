@@ -1,0 +1,33 @@
+h1{
+
+color: black;
+}
+
+h2{
+
+color: black;
+}
+
+
+.list-unstyled li{
+color:black;
+    background-color: azure;
+}
+
+
+.display-4{
+    background-color: aliceblue;
+}
+
+.my-0 font-weight-normal{
+    color: black;
+    background-color: black;
+}
+
+.d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow{
+    background color: azure;
+}
+
+.lead{
+    color: white;
+}
