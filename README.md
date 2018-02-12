@@ -1,3 +1,2 @@
 # Geno-me
-My summerlab project where Iv developed a website to educate people about dna and nutrigenomics. Have also added my first ever chatbot as well. 
-
+My summerlab project where I have developed a website aimed at educating people about dna and nutrigenomics. Click on the home page, which is mypractice.html and you can see my chatbot as well! 
