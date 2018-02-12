@@ -3,40 +3,41 @@
     <head>
         <link rel="stylesheet" href="./lib/bootstrap-4.0.0-dist/css/bootstrap.css">
         <link rel="stylesheet" href="./css/site.css">
-        <link rel="stylesheet" href="./css/homeitworks.css">
+        <link rel="stylesheet" href="./css/home.css"
         <script src="./lib/bootstrap-4.0.0-dist/js/bootstrap.js"></script>
-        <title>How It Works</title>
+        <script src="./lib/bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+        <title>About Nutrigenomics</title>
 
     </head>
 
     <body>
-        <!--Navigation bar-->
-        <nav class = "navbar navbar-expand navbar-light bg-light">
-            <ul class = "navbar-nav">
-                <li class = "nav-item">
-                    <a href="home.html" class = "nav-link">Home</a>
-                </li>
-                <li class = "nav-item">
-                    <a href="howitworks.html" class = "nav-link">How It Works</a>
-                </li>
-                <li class = "nav-item">
-                    <a href="story.html" class = "nav-link">Our Story</a>
-                </li>
-                <li class = "login-navitem-position">
-                    <li class = "nav-item">
-                        <a href="index.html" class = "nav-link">Login</a>
-                    </li>
-                    <li class = "nav-item">
-                        <a href="index.html" class = "nav-link">Sign Up</a>
-                    </li>
-                </li>
-            </ul>
-        </nav>
-
-
-        <div class="embed-responsive embed-responsive-4by3">
-          <iframe src="https://www.youtube.com/embed/2AzL8xD8usQ" ></iframe>
+        <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="mypractice.html">Home</a>
+  <a href="#">Services</a>
+  <a href="howitworks.html">How it Works</a>
+  <a href="prices.html">Our story</a>
+ <a href="#">Contact</a>
         </div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><h2>Info</h2></span>
+        
+        <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+        </script>
+        <h2 class="banner-text team-text">How it Works</h2>
+
+        <video src="NUTRIGENOMICS.mp4" width="620" height="540" controls>
+    Video not supported
+        </video>
+        
 
     </body>
 
